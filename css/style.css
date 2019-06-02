@@ -49,6 +49,29 @@
     background-size: 100% 100%;
 }
 
+.login-box{
+    display: flex;
+    width: 6rem;
+    height: .8rem;
+    margin: 0 auto .2rem;
+    line-height: .8rem;
+    color: #dd5d59;
+}
+
+.login-input{
+    width: 100%;
+    height: .8rem;
+    padding: 0 .05rem;
+    font-size: .2rem;
+    color: #dd5d59;
+    border: none;
+    border-bottom: 1px solid #dd5d59;
+}
+
+.login-input::-webkit-input-placeholder{
+    color: #dd5d59;
+}
+
 /*public*/
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
     background: #fff;
