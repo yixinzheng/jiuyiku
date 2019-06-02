@@ -28,6 +28,27 @@
     background-size: auto 100%;
 }
 
+/*login*/
+.login-head{
+    position: relative;
+    height: .42rem;
+    line-height: .42rem;
+    margin: .5rem 0;
+    text-align: center;
+    font-size: .42rem;
+    color: #dd5d59;
+}
+
+.login-back{
+    position: absolute;
+    left: .5rem;
+    top: 0;
+    width: .25rem;
+    height: .42rem;
+    background: url("../images/login-back.png");
+    background-size: 100% 100%;
+}
+
 /*public*/
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
     background: #fff;
