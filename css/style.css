@@ -1,0 +1,507 @@
+.entry-con{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background: url("../images/entry.png");
+    background-size: 100% 100%;
+}
+
+.index-app img {
+    width: 100%;
+    height: 100%;
+}
+
+.choose-logo{
+    display: block;
+    width: 4rem;
+    margin: 1.5rem auto;
+}
+
+.choose-btn{
+    display: block;
+    width: 4.6rem;
+    height: .94rem;
+    line-height: .94rem;
+    margin: 0 auto .8rem;
+    text-align: center;
+    color: #fff;
+    font-size: .28rem;
+    background: #dd5d59;
+    border-radius: .6rem;
+}
+
+.choose-other{
+    height: .2rem;
+    background: url("../images/other.png") center center no-repeat;
+    background-size: auto 100%;
+}
+
+/*login*/
+.login-head{
+    position: relative;
+    height: .42rem;
+    line-height: .42rem;
+    margin: .5rem 0;
+    text-align: center;
+    font-size: .42rem;
+    color: #dd5d59;
+}
+
+.login-back{
+    position: absolute;
+    left: .5rem;
+    top: 0;
+    width: .25rem;
+    height: .42rem;
+    background: url("../images/login-back.png");
+    background-size: 100% 100%;
+}
+
+.login-box{
+    display: flex;
+    width: 6rem;
+    height: .8rem;
+    margin: 0 auto .2rem;
+    line-height: .8rem;
+    color: #dd5d59;
+    border-bottom: 1px solid #dd5d59;
+}
+
+.regist-86{
+    width: .8rem;
+    height: .75rem;
+    line-height: .75rem;
+    padding: 0 .05rem;
+    font-size: .2rem;
+}
+
+.login-input{
+    width: 100%;
+    height: .75rem;
+    padding: 0 .05rem;
+    font-size: .2rem;
+    color: #dd5d59;
+    border: none;
+}
+
+.login-input::-webkit-input-placeholder{
+    color: #dd5d59;
+}
+
+.login-btn{
+    width: 5.4rem;
+    height: .6rem;
+    line-height: .6rem;
+    margin: 1rem auto .4rem;
+    text-align: center;
+    color: #fff;
+    font-size: .24rem;
+    border-radius: .6rem;
+    background: #dd5d59;
+}
+
+.login-reset{
+    display: block;
+    width: 1rem;
+    margin: 0 auto;
+    color: #dd5d59;
+    font-size: .24rem;
+    text-align: center;
+}
+
+.login-fixed{
+    position: fixed;
+    bottom: 1.2rem;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.login-way{
+    width: .7rem;
+    height: .7rem;
+    margin: 0 .8rem;
+}
+
+.login-qq{
+    background: url("../images/qq.png");
+    background-size: 100% auto;
+}
+
+.login-wx{
+    background: url("../images/wx.png");
+    background-size: 100% auto;
+}
+
+.login-weibo{
+    background: url("../images/weibo.png");
+    background-size: 100% auto;
+}
+
+/*服装详情*/
+.cloth-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5vh;
+    background: #dd5d59;
+}
+
+.cloth-back{
+    width: .9rem;
+    background: url("../images/view-back.png") center center no-repeat;
+    background-size: auto .3rem;
+}
+
+.cloth-share{
+    width: .9rem;
+    background: url("../images/share.png") center center no-repeat;
+    background-size: auto .4rem;
+}
+
+.clothDetail-box{
+    height: 65vh;
+    overflow: hidden;
+    border: .02rem solid #ccc;
+}
+
+.clothDetail-box img{
+    width: 100%;
+    height: auto;
+}
+
+.clothDetail-fixed{
+    position: relative;
+    height: 30vh;
+    padding: .5rem .5rem 0 .5rem;
+    border-top: .02rem solid #ccc;
+    background: #dcdcda;
+}
+
+.clothDetail-ch{
+    display: flex;
+    align-items: center;
+}
+
+.clothDetail-name{
+    max-width: 6.3rem;
+    line-height: .5rem;
+    color: #000;
+    font-size: .32rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.clothDetail-collect{
+    width: 1.2rem;
+    height: .5rem;
+    background: url("../images/collect.png") center center no-repeat;
+    background-size: auto .4rem;
+}
+
+.clothDetail-en{
+    line-height: .5rem;
+    color: #000;
+    font-size: .2rem;
+    font-weight: bold;
+}
+
+.clothDetail-price{
+    line-height: .6rem;
+    color: #000;
+    font-size: .26rem;
+    font-weight: bold;
+}
+
+.clothDetail-btns{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: .2rem;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: .16rem .25rem;
+    margin-top: .8rem;
+}
+
+.clothDetail-btn{
+    width: 3.2rem;
+    height: .68rem;
+    line-height: .68rem;
+    text-align: center;
+    color: #fdfbfb;
+    font-size: .34rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    background: #046078;
+    border-radius: .68rem;
+}
+
+/*分类*/
+.cate-top{
+    display: flex;
+    margin: .1rem 0 .2rem;
+    background: #fff;
+}
+
+.cate-select{
+    width: 25%;
+    font-weight: bold;
+    border: none;
+}
+
+.cate-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 7rem;
+    margin: 0 auto;
+}
+
+.cate-con{
+    width: 3.2rem;
+    margin-bottom: .5rem;
+    border-radius: .2rem;
+    overflow: hidden;
+    background: #fff;
+}
+
+.cate-cover{
+    width: 3.2rem;
+    height: 3rem;
+}
+
+.cate-name{
+    line-height: .5rem;
+    padding: 0 .2rem;
+    font-size: .24rem;
+    color: #999;
+    margin-top: .2rem;
+}
+
+.cate-price{
+    line-height: .5rem;
+    padding: 0 .2rem;
+    font-size: .24rem;
+    color: #dd5d59;
+}
+
+.cate-desc{
+    line-height: .5rem;
+    padding: 0 .2rem;
+    font-size: .24rem;
+    color: #999;
+    margin-bottom: .2rem;
+}
+
+/*首页*/
+.home-head{
+    display: flex;
+    justify-content: space-between;
+    height: .88rem;
+    background: #dd5d59;
+}
+
+.home-menu{
+    width: 1.1rem;
+    height: .88rem;
+    background: url("../images/menu.png") center center no-repeat;
+    background-size: 40% auto;
+}
+
+.home-ques{
+    width: 1.1rem;
+    height: .88rem;
+    background: url("../images/ques.png") center center no-repeat;
+    background-size: 40% auto;
+}
+
+.home-slide img{
+    display: block;
+    width: 6.4rem;
+    height: 9.6rem;
+    margin: .2rem auto;
+}
+
+.home-guess{
+    height: .67rem;
+    margin: .3rem auto 1.2rem;
+    background: url("../images/guess.png") center center no-repeat;
+    background-size: auto 100%;
+}
+
+.public-fixed{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    width: 7.5rem;
+    height: 1rem;
+    margin-left: -3.75rem;
+    background: #fff;
+}
+
+.public-btn{
+    width: 25%;
+    height: 1rem;
+}
+
+.public-home{
+    background: url("../images/home.png") center center no-repeat;
+    background-size: .59rem auto;
+}
+
+.public-home.active{
+    background-image: url("../images/home-active.png");
+}
+
+.public-cate{
+    background: url("../images/cate.png") center center no-repeat;
+    background-size: .48rem auto;
+}
+
+.public-cate.active{
+    background-image: url("../images/cate-active.png");
+}
+
+.public-my{
+    background: url("../images/my.png") center center no-repeat;
+    background-size: .59rem auto;
+}
+
+.public-my.active{
+    background-image: url("../images/my-active.png");
+}
+
+.public-car{
+    background: url("../images/car.png") center center no-repeat;
+    background-size: .47rem auto;
+}
+
+/*我的*/
+.my-head{
+    height: .88rem;
+    line-height: .88rem;
+    text-align: center;
+    font-size: .42rem;
+    color: #dd5d59;
+    background: #fff;
+}
+
+.my-top{
+    width: 7.2rem;
+    margin: .2rem auto;
+    border-radius: .3rem;
+    background: #fff;
+    overflow: hidden;
+}
+
+.my-imgBox{
+    position: relative;
+    width: 1.9rem;
+    height: 1.9rem;
+    margin: .45rem auto 0;
+    border-radius: 100%;
+}
+
+.my-imgBox img{
+    width: 100%;
+    height: 100%;
+}
+
+.my-imgLevel{
+    position: absolute;
+    right: .2rem;
+    bottom: .1rem;
+    width: .35rem;
+    height: .35rem;
+    line-height: .35rem;
+    text-align: center;
+    color: #fff;
+    font-size: .2rem;
+    background: #dd5d59;
+    border-radius: 100%;
+}
+
+.my-name{
+    height: 1rem;
+    line-height: 1rem;
+    margin-bottom: .2rem;
+    font-size: .3rem;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+.my-doBox{
+    width: 7.2rem;
+    margin: .2rem auto;
+    display: flex;
+    background: #fff;
+    border-radius: .3rem;
+}
+.my-do{
+    width: 33.333333%;
+    height: 2rem;
+}
+
+.my-data{
+    background: url("../images/my-data.png") center center no-repeat;
+    background-size: auto 1.2rem;
+}
+
+.my-record{
+    background: url("../images/my-record.png") center center no-repeat;
+    background-size: auto 1.2rem;
+}
+
+.my-account{
+    background: url("../images/my-account.png") center center no-repeat;
+    background-size: auto 1.2rem;
+}
+
+.my-agent{
+    background: url("../images/my-agent.png") center center no-repeat;
+    background-size: auto 1.2rem;
+}
+
+.my-wl{
+    background: url("../images/my-wl.png") center center no-repeat;
+    background-size: auto 1.2rem;
+}
+
+.my-old{
+    background: url("../images/my-old.png") center center no-repeat;
+    background-size: auto 1.2rem;
+}
+
+.my-circle{
+    background: url("../images/my-circle.png") center center no-repeat;
+    background-size: auto 1.2rem;
+}
+
+/*public*/
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    background: #fff;
+}
+
+.swiper-pagination-bullet {
+    width: .3rem;
+    height: .3rem;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 .1rem;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 1rem;
+}
